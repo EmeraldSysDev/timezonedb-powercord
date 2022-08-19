@@ -76,6 +76,14 @@ function Settings({ getSetting, updateSetting, toggleSetting }) {
 				Do not show timezone for myself
 			</SwitchItem>
 
+			<SwitchItem
+				value={getSetting('tzdb-show-current', true)}
+				onChange={() => toggleSetting('tzdb-show-current', true)}
+				note={'This will locally show other\'s current time in their timezone.'}
+			>
+				Show current time in timezone
+			</SwitchItem>
+
 			<TextInput
 				note={
 					"The base API endpoint. Don't change this unless you know what you're doing."
