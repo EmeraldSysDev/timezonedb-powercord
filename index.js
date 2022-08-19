@@ -103,7 +103,7 @@ class TimezoneDB extends Plugin {
 				if (!res.props.children[3]) {
 					res.props.children.push(
 						React.createElement(Timezone, {
-							userId: user.id,
+							userId: user.userId,
 							displayCurrent: true,
 							render: (p) =>
 								React.createElement(
@@ -113,7 +113,7 @@ class TimezoneDB extends Plugin {
 										'h3',
 										{
 											className:
-												'aboutMeTitle-3pjiS7 base-21yXnu size12-oc4dx4 muted-eZM05q uppercase-2unHJn',
+												'userInfoTitle-39qq0Y eyebrow-Ejf06y defaultColor-HXu-5n',
 										},
 										'Timezone',
 									),
@@ -121,7 +121,7 @@ class TimezoneDB extends Plugin {
 										'div',
 										{
 											className:
-												'aboutMeBody-1J8rhz markup-eYLPri clamped-2ZePhX',
+												'userInfoBody-1zgAd0 markup-eYLPri clamped-2ZePhX',
 										},
 										p,
 									),
@@ -134,7 +134,7 @@ class TimezoneDB extends Plugin {
 							'div',
 							{
 								className:
-									'timezonedb-timezone aboutMeBody-1J8rhz markup-eYLPri clamped-2ZePhX',
+									'timezonedb-timezone userInfoBody-1zgAd0 markup-eYLPri clamped-2ZePhX',
 							},
 							React.createElement(Timezone, {
 								userId: user.id,
