@@ -41,7 +41,7 @@ async function doLoadTimezone(id) {
 		.then((r) => r.body.timezoneInfo || null)
 		.catch(() => null);
 
-	FluxDispatcher.dirtyDispatch({
+	FluxDispatcher.dispatch({
 		type: 'TIMEZONEDB_TIMEZONE_LOADED',
 		pronouns: { [id]: timezone },
 	});

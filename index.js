@@ -96,14 +96,14 @@ class TimezoneDB extends Plugin {
 			'timezonedb-popout-render',
 			UserPopOutComponents,
 			'UserPopoutProfileText',
-			function ([{ user }], res) {
+			function ([{ displayProfile }], res) {
 				if (!_this.settings.get('tzdb-display-popout', true))
 					return res;
 
 				if (!res.props.children[3] || true) {
 					res.props.children.push(
 						React.createElement(Timezone, {
-							userId: user.userId,
+							userId: displayProfile.userId,
 							region: 'popout',
 							render: (p) =>
 								React.createElement(
