@@ -114,8 +114,8 @@ class TimezoneDB extends Plugin {
 									React.createElement(
 										'h3',
 										{
-											className:
-												'userInfoTitle-39qq0Y eyebrow-Ejf06y defaultColor-HXu-5n',
+											className: 'userInfoTitle-39qq0Y eyebrow-Ejf06y defaultColor-HXu-5n',
+											style: { color: 'var(--header-secondary)' },
 										},
 										'Timezone',
 									),
