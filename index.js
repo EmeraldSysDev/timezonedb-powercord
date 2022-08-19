@@ -104,6 +104,7 @@ class TimezoneDB extends Plugin {
 					res.props.children.push(
 						React.createElement(Timezone, {
 							userId: displayProfile.userId,
+							displayCurrent: true,
 							region: 'popout',
 							render: (p) =>
 								React.createElement(
@@ -137,8 +138,9 @@ class TimezoneDB extends Plugin {
 									'timezonedb-timezone userInfoBody-1zgAd0 markup-eYLPri clamped-2ZePhX',
 							},
 							React.createElement(Timezone, {
-								userId: user.id,
+								userId: displayProfile.userId,
 								displayCurrent: true,
+								region: 'popout',
 								prefix: '\n',
 							}),
 						),
