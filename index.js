@@ -100,7 +100,7 @@ class TimezoneDB extends Plugin {
 				if (!_this.settings.get('tzdb-display-popout', true))
 					return res;
 
-				if (!res.props.children[3]) {
+				if (!res.props.children[3] || true) {
 					res.props.children.push(
 						React.createElement(Timezone, {
 							userId: user.userId,

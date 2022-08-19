@@ -2,7 +2,7 @@
   "name": "TimezoneDB",
   "description": "An easy, cross-platform method of keeping track of other people's timezones.",
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Synapse Technologies LLC",
   "permissions": [
     "ext_api"
