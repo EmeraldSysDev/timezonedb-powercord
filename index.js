@@ -110,11 +110,11 @@ class TimezoneDB extends Plugin {
 							render: (p) =>
 								React.createElement(
 									'div',
-									{ className: 'userInfoSection-3her-v' },
+									{ className: 'section-3FmfOT' },
 									React.createElement(
 										'h3',
 										{
-											className: 'userInfoTitle-39qq0Y eyebrow-Ejf06y defaultColor-HXu-5n',
+											className: 'title-1r9MQ6 eyebrow-Ejf06y defaultColor-HXu-5n',
 											style: { color: 'var(--header-secondary)' },
 										},
 										'Timezone',
@@ -123,7 +123,7 @@ class TimezoneDB extends Plugin {
 										'div',
 										{
 											className:
-												'userInfoBody-1zgAd0 markup-eYLPri clamped-2ZePhX',
+												'markup-eYLPri',
 										},
 										p,
 									),
